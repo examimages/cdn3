@@ -1,0 +1,62 @@
+<svg width="534" height="198" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="black" />
+    </marker>
+  </defs>
+
+  <!-- Cone Section -->
+  <g stroke="black" stroke-width="2" fill="none">
+    <!-- Cone Body -->
+    <path d="M 100 450 L 250 150 L 400 450" />
+    <!-- Cone Base -->
+    <ellipse cx="250" cy="450" rx="150" ry="45" />
+    
+    <!-- Height indicator -->
+    <line x1="470" y1="150" x2="470" y2="450" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+    <!-- Radius indicator -->
+    <line x1="250" y1="450" x2="400" y2="450" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+  </g>
+  
+  <!-- Cone Labels -->
+  <text x="435" y="310" text-anchor="middle" style="font-size: 30px; font-family: Arial, sans-serif;">h</text>
+  <text x="325" y="515" text-anchor="middle" style="font-size: 30px; font-family: Arial, sans-serif;">r</text>
+
+  <!-- Transition Block Arrow -->
+  <path d="M 500 280 L 600 280 L 600 240 L 700 320 L 600 400 L 600 360 L 500 360 Z" fill="none" stroke="black" stroke-width="2" />
+
+  <!-- Triangle Section -->
+  <g stroke="black" stroke-width="2" fill="none">
+    <!-- Triangle Outline -->
+    <path d="M 950 150 L 750 496.4 L 1150 496.4 Z" />
+    <!-- Height Line -->
+    <line x1="950" y1="150" x2="950" y2="496.4" />
+    
+    <!-- Tick Marks -->
+    <!-- Left side -->
+    <line x1="841" y1="318" x2="859" y2="328" />
+    <!-- Right side -->
+    <line x1="1041" y1="328" x2="1059" y2="318" />
+    <!-- Base -->
+    <line x1="950" y1="486" x2="950" y2="506" />
+  </g>
+  
+  <!-- Triangle Labels -->
+  <text x="970" y="320" text-anchor="start" style="font-size: 30px; font-family: Arial, sans-serif;">h</text>
+  <text x="800" y="300" text-anchor="middle" transform="rotate(-60, 800, 300)" style="font-size: 30px; font-family: Arial, sans-serif;">14 cm</text>
+  <text x="1100" y="300" text-anchor="middle" transform="rotate(60, 1100, 300)" style="font-size: 30px; font-family: Arial, sans-serif;">14 cm</text>
+  <text x="950" y="550" text-anchor="middle" style="font-size: 30px; font-family: Arial, sans-serif;">14 cm</text>
+  
+  <!-- Angle Arcs and Labels -->
+  <g stroke="black" stroke-width="1" fill="none">
+    <!-- Top Angle -->
+    <path d="M 930 184.6 A 40 40 0 0 0 970 184.6" />
+    <!-- Bottom Left Angle -->
+    <path d="M 790 496.4 A 40 40 0 0 0 770 461.8" />
+    <!-- Bottom Right Angle -->
+    <path d="M 1110 496.4 A 40 40 0 0 1 1130 461.8" />
+  </g>
+  <text x="950" y="230" text-anchor="middle" style="font-size: 24px; font-family: Arial, sans-serif;">60°</text>
+  <text x="830" y="470" text-anchor="middle" style="font-size: 24px; font-family: Arial, sans-serif;">60°</text>
+  <text x="1070" y="470" text-anchor="middle" style="font-size: 24px; font-family: Arial, sans-serif;">60°</text>
+</svg>

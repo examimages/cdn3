@@ -1,0 +1,39 @@
+<svg width="704" height="726" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 580">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000" />
+    </marker>
+  </defs>
+  
+  <!-- Coordinate Axes -->
+  <line x1="100" y1="540" x2="100" y2="40" stroke="#000" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="40" y1="450" x2="590" y2="450" stroke="#000" stroke-width="2" marker-end="url(#arrow)" />
+  
+  <!-- Quarter Circle Arc with Radius R -->
+  <path d="M 100 100 A 350 350 0 0 1 450 450" stroke="#000" stroke-width="2" fill="none" />
+  
+  <!-- Inner Circle tangent to axes and arc -->
+  <!-- Radius r = R / (1 + sqrt(2)) approx 145 for R = 350 -->
+  <circle cx="245" cy="305" r="145" stroke="#000" stroke-width="2" fill="none" />
+  
+  <!-- Center points -->
+  <circle cx="245" cy="305" r="4" fill="#000" />
+  <circle cx="100" cy="450" r="4" fill="#000" />
+  
+  <!-- Radius lines for the inner circle -->
+  <line x1="100" y1="305" x2="245" y2="305" stroke="#000" stroke-width="2" />
+  <line x1="245" y1="305" x2="245" y2="450" stroke="#000" stroke-width="2" />
+  
+  <!-- Dimension line for R -->
+  <line x1="110" y1="500" x2="240" y2="500" stroke="#000" stroke-width="2" marker-start="url(#arrow)" />
+  <line x1="310" y1="500" x2="440" y2="500" stroke="#000" stroke-width="2" marker-end="url(#arrow)" />
+  <text x="275" y="510" text-anchor="middle" style="font-family: 'Times New Roman', serif; font-size: 30px; font-style: italic;">R</text>
+  
+  <!-- Labels -->
+  <text x="100" y="25" text-anchor="middle" style="font-family: 'Times New Roman', serif; font-size: 30px; font-style: italic;">y</text>
+  <text x="615" y="460" text-anchor="middle" style="font-family: 'Times New Roman', serif; font-size: 30px; font-style: italic;">x</text>
+  <text x="85" y="485" text-anchor="end" style="font-family: 'Times New Roman', serif; font-size: 30px;">(0,0)</text>
+  <text x="172" y="295" text-anchor="middle" style="font-family: 'Times New Roman', serif; font-size: 30px; font-style: italic;">r</text>
+  <text x="275" y="385" text-anchor="middle" style="font-family: 'Times New Roman', serif; font-size: 30px; font-style: italic;">r</text>
+  <text x="270" y="275" text-anchor="start" style="font-family: 'Times New Roman', serif; font-size: 30px;">(r,r)</text>
+</svg>
