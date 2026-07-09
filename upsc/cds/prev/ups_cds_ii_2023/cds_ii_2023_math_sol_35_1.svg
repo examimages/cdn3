@@ -1,0 +1,47 @@
+<svg width="503" height="383" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 680">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000000" />
+    </marker>
+  </defs>
+  
+  <!-- Main Circle -->
+  <circle cx="400" cy="320" r="300" stroke="#000000" stroke-width="2" fill="none" />
+  
+  <!-- Center Point O -->
+  <circle cx="400" cy="320" r="5" fill="#000000" />
+  
+  <!-- Chords -->
+  <!-- Chord CD -->
+  <line x1="117" y1="420" x2="683" y2="420" stroke="#000000" stroke-width="2" />
+  <!-- Chord AB -->
+  <line x1="176" y1="520" x2="624" y2="520" stroke="#000000" stroke-width="2" />
+  
+  <!-- Vertical Line from O to P -->
+  <line x1="400" y1="320" x2="400" y2="520" stroke="#000000" stroke-width="2" />
+  
+  <!-- Radii -->
+  <!-- Line OD -->
+  <line x1="400" y1="320" x2="683" y2="420" stroke="#000000" stroke-width="2" />
+  <!-- Line OB with arrowhead as seen in sketch -->
+  <line x1="400" y1="320" x2="624" y2="520" stroke="#000000" stroke-width="2" marker-end="url(#arrow)" />
+  
+  <!-- Labels -->
+  <!-- Point Labels -->
+  <text x="400" y="290" text-anchor="middle" style="font-size: 30px; font-family: Arial, sans-serif;">O</text>
+  <text x="80" y="430" text-anchor="middle" style="font-size: 30px; font-family: Arial, sans-serif;">C</text>
+  <text x="720" y="430" text-anchor="middle" style="font-size: 30px; font-family: Arial, sans-serif;">D</text>
+  <text x="140" y="560" text-anchor="middle" style="font-size: 30px; font-family: Arial, sans-serif;">A</text>
+  <text x="660" y="560" text-anchor="middle" style="font-size: 30px; font-family: Arial, sans-serif;">B</text>
+  <text x="400" y="570" text-anchor="middle" style="font-size: 30px; font-family: Arial, sans-serif;">P</text>
+  
+  <!-- Dimension Labels -->
+  <text x="370" y="380" text-anchor="middle" style="font-size: 30px; font-family: Arial, sans-serif;">x</text>
+  <text x="365" y="480" text-anchor="middle" style="font-size: 30px; font-family: Arial, sans-serif;">10</text>
+  <text x="500" y="405" text-anchor="middle" style="font-size: 30px; font-family: Arial, sans-serif;">40</text>
+  <text x="510" y="560" text-anchor="middle" style="font-size: 30px; font-family: Arial, sans-serif;">30</text>
+  
+  <!-- Radius Labels -->
+  <text x="560" y="360" text-anchor="middle" style="font-size: 30px; font-family: Arial, sans-serif;">r</text>
+  <text x="530" y="480" text-anchor="middle" style="font-size: 30px; font-family: Arial, sans-serif;">r</text>
+</svg>

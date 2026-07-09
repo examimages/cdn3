@@ -1,0 +1,69 @@
+<svg width="466" height="286"   viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="white" />
+  
+  <!-- Circle with center O -->
+  <circle cx="400" cy="400" r="250" fill="none" stroke="black" stroke-width="2" />
+  
+  <!-- Main Connector Lines -->
+  <!-- Line PQ passing through center O -->
+  <line x1="150" y1="400" x2="853.2" y2="400" stroke="black" stroke-width="2" />
+  
+  <!-- Radii OA and OB -->
+  <line x1="400" y1="400" x2="335.3" y2="158.5" stroke="black" stroke-width="2" /> <!-- OA -->
+  <line x1="400" y1="400" x2="626.6" y2="294.3" stroke="black" stroke-width="2" /> <!-- OB -->
+  
+  <!-- Chords AB, AC, BC -->
+  <line x1="335.3" y1="158.5" x2="626.6" y2="294.3" stroke="black" stroke-width="2" /> <!-- AB -->
+  <line x1="335.3" y1="158.5" x2="314.5" y2="634.9" stroke="black" stroke-width="2" /> <!-- AC -->
+  <line x1="626.6" y1="294.3" x2="314.5" y2="634.9" stroke="black" stroke-width="2" /> <!-- BC -->
+  
+  <!-- Line segment BQ -->
+  <line x1="626.6" y1="294.3" x2="853.2" y2="400" stroke="black" stroke-width="2" />
+  
+  <!-- Center point O -->
+  <circle cx="400" cy="400" r="5" fill="black" />
+  
+  <!-- Angle Arcs -->
+  <!-- Angle x at O (AOP) -->
+  <path d="M 350 400 A 50 50 0 0 1 387.1 351.7" fill="none" stroke="black" stroke-width="2" />
+  <!-- Angle y at O (BOQ) -->
+  <path d="M 445.3 378.9 A 50 50 0 0 1 450 400" fill="none" stroke="black" stroke-width="2" />
+  <!-- Angle y at Q (BQO) -->
+  <path d="M 803.2 400 A 50 50 0 0 1 807.9 378.9" fill="none" stroke="black" stroke-width="2" />
+  <!-- Angle 2y at A (OAB) -->
+  <path d="M 380.6 179.6 A 50 50 0 0 1 348.2 206.8" fill="none" stroke="black" stroke-width="2" />
+  <!-- Angle 2y at B (OBA) -->
+  <path d="M 581.3 315.4 A 50 50 0 0 1 581.3 273.2" fill="none" stroke="black" stroke-width="2" />
+  
+  <!-- Equality Tick Marks -->
+  <!-- OA double ticks -->
+  <g transform="translate(367.7, 279.3) rotate(165)">
+    <line x1="-5" y1="-10" x2="-5" y2="10" stroke="black" stroke-width="2" />
+    <line x1="5" y1="-10" x2="5" y2="10" stroke="black" stroke-width="2" />
+  </g>
+  <!-- OB double ticks -->
+  <g transform="translate(513.3, 347.2) rotate(65)">
+    <line x1="-5" y1="-10" x2="-5" y2="10" stroke="black" stroke-width="2" />
+    <line x1="5" y1="-10" x2="5" y2="10" stroke="black" stroke-width="2" />
+  </g>
+  <!-- BQ single tick -->
+  <g transform="translate(739.9, 347.2) rotate(115)">
+    <line x1="0" y1="-10" x2="0" y2="10" stroke="black" stroke-width="2" />
+  </g>
+  
+  <!-- Point Labels -->
+  <text x="310" y="130" text-anchor="middle" font-family="Arial" font-size="30">A</text>
+  <text x="655" y="275" text-anchor="middle" font-family="Arial" font-size="30">B</text>
+  <text x="315" y="685" text-anchor="middle" font-family="Arial" font-size="30">C</text>
+  <text x="120" y="410" text-anchor="middle" font-family="Arial" font-size="30">P</text>
+  <text x="400" y="445" text-anchor="middle" font-family="Arial" font-size="30">O</text>
+  <text x="890" y="410" text-anchor="middle" font-family="Arial" font-size="30">Q</text>
+  
+  <!-- Angle Labels -->
+  <text x="340" y="360" text-anchor="middle" font-family="Arial" font-size="30">x°</text>
+  <text x="480" y="385" text-anchor="middle" font-family="Arial" font-size="30">y°</text>
+  <text x="760" y="385" text-anchor="middle" font-family="Arial" font-size="30">y°</text>
+  <text x="390" y="225" text-anchor="middle" font-family="Arial" font-size="30">2y°</text>
+  <text x="540" y="305" text-anchor="middle" font-family="Arial" font-size="30">2y°</text>
+</svg>
